@@ -1,0 +1,5 @@
+---
+- name: Converge
+  hosts: all
+  collections:
+  - {{ cookiecutter.namespace_slug }}.{{ cookiecutter.collection_slug }}

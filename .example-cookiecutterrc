@@ -1,0 +1,10 @@
+default_context:
+  namespace: example
+  collection_name: example_collection
+  description: Example Ansible collection
+  author: Example User
+  company: Example
+  email: user@example.org
+  website: http://example.org
+  twitter: example
+
