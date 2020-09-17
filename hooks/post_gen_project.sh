@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 set -e
 
+cd {{ cookiecutter.collection_slug }}
+
 # Initialize Git repo
 git init
 
