@@ -1,6 +1,8 @@
 default_context:
   namespace: example
+  namespace_slug: example
   collection_name: example_collection
+  collection_name_slug: example_collection
   description: Example Ansible collection
   author: Example User
   company: Example
