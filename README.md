@@ -1,8 +1,8 @@
-# Cookiecutter - Ansible Role
+# Cookiecutter - Ansible Collection
 
-A cookiecutter project template for Ansible roles. By using [cookiecutter](https://cookiecutter.readthedocs.io/en/latest/), consistent Ansible projects can be
-achieved with common constructs. Many great projects already use cookiecutter
-behind the scenes (Ansible, Molecule).
+A cookiecutter project template for Ansible collection. By using [cookiecutter](https://cookiecutter.readthedocs.io/en/latest/),
+consistent Ansible projects can be achieved with common constructs. Many great
+projects already use cookiecutter behind the scenes (Ansible, Molecule).
 
 ## Requirements
 
@@ -13,7 +13,7 @@ behind the scenes (Ansible, Molecule).
 Execute the following and answer the relevant questions.
 
 ```bash
-cookiecutter https://github.com/mrlesmithjr/cookiecutter-ansible-role
+cookiecutter https://github.com/mrlesmithjr/cookiecutter-ansible-collection
 ```
 
 ### Example
@@ -21,7 +21,7 @@ cookiecutter https://github.com/mrlesmithjr/cookiecutter-ansible-role
 In this example we will create an Ansible role for NGINX.
 
 ```bash
-cookiecutter https://github.com/mrlesmithjr/cookiecutter-ansible-role
+cookiecutter https://github.com/mrlesmithjr/cookiecutter-ansible-collection
 ...
 role_name [Enter Ansible role name]: test-role
 description [Enter description of Ansible role]: A test role
